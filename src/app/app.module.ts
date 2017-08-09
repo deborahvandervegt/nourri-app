@@ -4,6 +4,7 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { MyApp } from './app.component';
 import { DashboardPage } from '../pages/dashboard/dashboard';
+import { NutritionPage } from '../pages/nutrition/nutrition';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -25,7 +26,8 @@ const firebaseConfig = {
 @NgModule({
   declarations: [
     MyApp,
-    DashboardPage
+    DashboardPage,
+    NutritionPage
   ],
   imports: [
     BrowserModule,
@@ -37,7 +39,8 @@ const firebaseConfig = {
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    DashboardPage
+    DashboardPage,
+    NutritionPage
   ],
   providers: [
     StatusBar,
