@@ -4,10 +4,10 @@ import { NavController } from 'ionic-angular';
 import { FirebaseListObservable } from 'angularfire2/database';
  
 @Component({
-  selector: 'page-home',
-  templateUrl: 'home.html'
+  selector: 'page-dashboard',
+  templateUrl: 'dashboard.html'
 })
-export class HomePage {
+export class DashboardPage {
   shoppingItems: FirebaseListObservable<any[]>;
   newItem = '';
  
